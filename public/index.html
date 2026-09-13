@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Availability Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Team Availability Tracker</h1>
+            <p>Check and update your team's current availability</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="summary-card">
+                <h3>Total Members</h3>
+                <span id="totalMembers">0</span>
+            </div>
+
+            <div class="summary-card available-card">
+                <h3>Available</h3>
+                <span id="availableCount">0</span>
+            </div>
+
+            <div class="summary-card busy-card">
+                <h3>Busy</h3>
+                <span id="busyCount">0</span>
+            </div>
+
+            <div class="summary-card away-card">
+                <h3>Away</h3>
+                <span id="awayCount">0</span>
+            </div>
+        </div>
+
+        <section>
+            <h2>Team Members</h2>
+
+            <div id="teamContainer" class="team-container">
+                <!-- Team members will appear here -->
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
